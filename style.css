@@ -1,11 +1,11 @@
 body {
-  background-color: aliceblue;
+  background-image: url (""); 
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
 /*   margin-top: 10%; */
-  font-family: Georgia, serif;
+  font-family: Georgia, cursive;
 }
 
 html{
@@ -14,13 +14,14 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 1px solid blue;
+  background-image: url ("https://w0.peakpx.com/wallpaper/728/790/HD-wallpaper-nature-animation-amoled-anime-landscape-thumbnail.jpg"); 
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: pink;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -30,12 +31,13 @@ html{
   height: 450px;
   width: 600px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 1px solid black; 
 }
 
 h2{
-  color: black;
+  color: blue;
 /*   font-size: 10px; */
+  font-family: italic
 }
 
 #start{
